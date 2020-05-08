@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Project</title>
+    <style >
+body{
+    font-family: "Comic Sans MS" , sans serif;
+    background-color: lightgrey;
+}
+
+
+
+.container{
+
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px 0;
+
+}
+.one{
+    display:flex;           
+    border:2px solid black;
+    padding:10;
+    background-color: grey;
+    flex-direction:column;
+    width:350px; 
+    margin-left: 40px;          
+}
+   
+.one span{
+    width:40%;  
+    height:40px;    
+    background-color:yellow;
+    font-size:30px;
+    text-align:center;
+    margin-left:60%;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.one p{
+width: 100%;
+padding:10px;
+}
+
+@media  (max-width: 992px) {
+
+.one span{
+
+font-size:20px;
+height:30px;
+width:50%;
+margin-left:70%;
+
+}
+
+}
+@media   (min-width: 767px)and(max-width: 992px) {
+
+.one span{
+
+font-size:20px;
+height:30px;
+width:50%;
+margin-left:70%;
+
+}
+
+}
+    
+    </style>
+</head>
+<body>
+<h1 align="center">Our Menu</h1>
+<div class="container">
+    <div class="one">
+        <span>Pasta</span>
+        <p>jdjdf fdhfjdfj dfhjfdhjofdjo fjofpjdpfjf gfljdjjf flfjdsj vjdvjvd dfvljgdgjfdfjd fdlkdf</p>
+    </div>
+<div>
+<div class="container">
+    <div class="one">
+        <span>Pasta</span>
+        <p>jdjdf fdhfjdfj dfhjfdhjofdjo fjofpjdpfjf gfljdjjf flfjdsj vjdvjvd dfvljgdgjfdfjd fdlkdf</p>
+    </div>
+<div>
+    <div class="container">
+    <div class="one">
+        <span>Pasta</span>
+        <p>jdjdf fdhfjdfj dfhjfdhjofdjo fjofpjdpfjf gfljdjjf flfjdsj vjdvjvd dfvljgdgjfdfjd fdlkdf</p>
+    </div>
+<div>
+</body>
